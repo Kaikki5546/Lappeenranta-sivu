@@ -1,11 +1,25 @@
 body {
-    margin-left:         20%;
-    margin-right:         20%;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    line-height: 1.6;
     padding:             0px;
     background-color:     #E8DBC5;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    body {
+        margin: 0;
+        padding: 10px; /* Pieni suoja-alue reunoille */
+    }
+
 header {
+	flex-direction: column;
+    text-align: center;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,13 +29,15 @@ header {
 }
 
 nav ul {
+	flex-direction: column;
+    padding: 0;
+    gap: 10px;
     display: flex;
     list-style: none;
-    padding: 0;
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: 5px 0;
 }
 
 nav ul li a {
@@ -46,6 +62,9 @@ h2 {
 
 table {
 	background-color:	#D8CFAF;
+	width: 100%;
+    display: block;
+    overflow-x: auto;
 }
 
 p {
@@ -56,6 +75,8 @@ p {
 
 .content {
     display: flex;
+	flex-direction: column;
+    align-items: center;
     justify-content: center;
     gap: 20px;
     padding: 20px;
@@ -65,12 +86,19 @@ p {
     background-color: lightblue;
     padding: 20px;
     flex: 1;
-    max-width: 300px;
+    max-width: 100%;
+    width: 100%;
 }
 
 .perus_fontti {
     font-family:         verdana, sans serif;
 }
+
+input[type="text"], textarea, select {
+    width: 100%;
+    box-sizing: border-box; /* Pitää paddingin elementin sisällä */
+}
+
 /*Linkki jutut tästä alas*/
 a:link {
   color:                 #9A031E;
@@ -114,3 +142,4 @@ footer {
         align-items: center;
     }
 }
+
