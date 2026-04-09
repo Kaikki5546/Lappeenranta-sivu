@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Lappeenranta</title>
+	<meta name="description" content="HTML5 sivu">
+	<meta name="aurhor" content="SitePoint">
+	<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style/styles.css"> 
+<style>
+</style>
+</head>
+
+<body style="margin-left:20%;margin-right:20%;">
+<header>
+    <h1>Etusivu</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Etusivu</a></li>
+            <li><a href="historia.html">Historia</a></li>
+            <li><a href="matkailu.html">Matkailu</a></li>
+			<li><a href="talousarvio.html">Talousarvio</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section>
+        <h2>Lappeenrannan yhdistyksiä</h2>
+	</section>
+	<section class="content">
+		<div class="box"><a href="https://saipa.fi/" target="_Blank"><img src="img/saipa.png" height="100" width="100" alt="SaiPa logo"></a></div>
+        <div class="box"><a href="https://saimaansyopayhdistys.fi/" target="_Blank"><img src="img/syopa.png" height="100" width="275" alt="Syöpäyhdistys logo"></a></div>
+        <div class="box"><a href="https://mieliyhdistykset.fi/etela-karjala/" target="_Blank"><img src="img/mieli.png" height="100" width="100" alt="Mieli logo"></a></div>
+    </section>
+</main>
+<h1><strong> Lappeenranta </strong></h1>
+
+<img src="img/lappeenrannan_satama.jpg" alt="Lappeenrannan satama" width="400" height="300" class="image">
+
+<p><strong> Lappeenranta </strong> (ruots. Wildmenscoast) on <em>suurkaupunki</em> Etelä-Karjalan tasavallassa, Etelä-Suomen suurruhtinaskunnassa. Kaupunki on nykyisin jaettu osaksi Venäjää. Matkaa Lappeenrannasta Helsinkiin on 221 kilometriä, Pendolinolla 442 kilometriä. Venäläisten matkailijoiden ansiosta <strong> Lappeenranta </strong> on Suomen suurin kaupunki. <strong> Lappeenranta </strong> suunnitteli naapurikunta Joutsenon vallankaappausta pitkään ja se tapahtui tammikuussa 2009. Samoin <strong> Lappeenranta </strong> on kaapannut vallan Lauritsalassa, Lappeessa, Nuijamaalla ja Ylämaalla. <strong> Lappeenranta </strong> suunnittelee myös kaappaavansa Imatran, Rautjärven ja Ruokolahden kasvaakseen Karjalan suurimmaksi suurkaupungiksi. Nykyisin suositaan lähinnä Kieliopillisesti Oikeaa Kirjoitusasua: "lappeen Ranta".</p>
+
+<h2><strong> Lappeenranta </strong>-humppa Erkki Junkkarisen esittämänä:</h2>
+
+<audio controls>
+	<source src="audio/erkki_junkkarinen_Lappeenrantaan.mp3" type="audio/mpeg">
+</audio>
+<br>
+
+<h2>Kirjaston palautekysely</h2>
+<!-- Palautekysely formi -->
+<form method="post">
+<table style="border: 4px solid black;">
+    <tr>
+        <th colspan="2">Palautekysely</th>
+    </tr>
+	<tr>
+		<td colspan="2">Aihe<br>
+			<select id="aihe" name="aihe" size="1">
+				<option value="kirjasto">Kirjasto</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			Palautteen luonne<br>
+			<select id="luonne" name="luonne" size="1">
+				<option value="kiitos">Kiitos</option>
+				<option value="moite">Moite</option>
+				<option value="kysymys">Kysymys</option>
+				<option value="toimenpide">Toimenpide-ehdotus</option>
+			</select>
+		</td>
+	</tr>
+    <tr>
+        <td colspan="2">
+			Palauteteksti<br>
+			<textarea name="viesti" rows="5" cols="25">Kirjoita tähän...</textarea>
+		</td>
+    </tr>
+	<tr>
+		<td colspan="2">Yhteystiedot:<br>
+		</td>
+	</tr>
+	<tr>
+        <td>
+			<label for="nimi"> Nimi ja Sukunimi: </label>
+		</td>
+        <td>
+			<input type="text" id="nimi" name="nimi">
+		</td>
+    </tr>
+    <tr>
+        <td>
+			<label for="puhnro"> Puhelinnumero: </label>
+		</td>
+        <td>
+			<input type="text" id="puhnro" name="puhnro">
+		</td>
+    </tr>
+    <tr>
+        <td>
+			<label for="sähköposti"> Sähköposti: </label>
+		</td>
+        <td>
+			<input type="text" id="sähköposti" name="sähköposti">
+		</td>
+    </tr>
+	<tr>
+		<td colspan="2" style="vertical-align:bottom;">
+			<input type="submit" value="Lähetä">
+		</td>
+	</tr>
+</table>
+</form>
+<br>
+<a href="https://www.Lappeenranta.fi/fi" target="_Blank">Lappeenrannan kotisivut</a>
+<footer>
+    <p style="border: 0px;">&copy; 2026 Lappeenranta</p>
+</footer>
+</body>
+</html>
