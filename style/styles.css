@@ -87,23 +87,23 @@ p {
 }
 /*Linkki jutut tästä alas*/
 a:link {
-  color:                 #9A031E;
+  color:                 #f7485c;
   text-decoration:         none;
 }
 
 a:visited {
-  color:                 #558C8C;
+  color:                 #56e3e3;
   text-decoration:         none;
   
 }
 
 a:hover {
-  color:                 purple;
+  color:                 #ff00ff;
   text-decoration:         none;
 }
 
 a:active {
-  color:                 #083D77;
+  color:                 #429bfc;
   text-decoration:         none;
 }
 
